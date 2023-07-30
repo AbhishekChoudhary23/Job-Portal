@@ -100,7 +100,7 @@ export default (props) => {
             </DialogTitle>
             <DialogContent>
                 <Grid container spacing={2}>
-                    <Grid items xs={6}>
+                    <Grid item xs={6}>
                         <FilledInput
                             onChange={handleChange}
                             name="title"
@@ -108,7 +108,7 @@ export default (props) => {
                             autoComplete="off"
                             placeholder="Job title *" disableUnderline fullWidth />
                     </Grid>
-                    <Grid items xs={6}>
+                    <Grid item xs={6}>
                         <Select
                             onChange={handleChange}
                             name="type"
@@ -122,7 +122,7 @@ export default (props) => {
                             <MenuItem value="Contract">Contract</MenuItem>
                         </Select>
                     </Grid>
-                    <Grid items xs={6}>
+                    <Grid item xs={6}>
                         <FilledInput
                             onChange={handleChange}
                             name="companyName"
@@ -130,7 +130,7 @@ export default (props) => {
                             autoComplete="off"
                             placeholder="Company Name *" disableUnderline fullWidth />
                     </Grid>
-                    <Grid items xs={6}>
+                    <Grid item xs={6}>
                         <FilledInput
                             onChange={handleChange}
                             name="companyUrl"
@@ -138,7 +138,7 @@ export default (props) => {
                             autoComplete="off"
                             placeholder="Company url *" disableUnderline fullWidth />
                     </Grid>
-                    <Grid items xs={6}>
+                    <Grid item xs={6}>
                         <Select
                             onChange={handleChange}
                             fullWidth
@@ -151,7 +151,7 @@ export default (props) => {
                             <MenuItem value="In-Office">In-Office</MenuItem>
                         </Select>
                     </Grid>
-                    <Grid items xs={6}>
+                    <Grid item xs={6}>
                         <FilledInput
                             onChange={handleChange}
                             name="link"
@@ -159,7 +159,7 @@ export default (props) => {
                             autoComplete="off"
                             placeholder="Job link *" disableUnderline fullWidth />
                     </Grid>
-                    <Grid items xs={12}>
+                    <Grid item xs={12}>
                         <FilledInput
                             onChange={handleChange}
                             name="discription"
